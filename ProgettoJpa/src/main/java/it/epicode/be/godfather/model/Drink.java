@@ -1,7 +1,16 @@
 package it.epicode.be.godfather.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+
+@Entity
 public class Drink implements FoodItem {
 	
+	@Id
+	@GeneratedValue
+	private Long id;
+
 	public Drink(String name, Double price, Double calories) {
 		this.name = name;
 		this.price = price;

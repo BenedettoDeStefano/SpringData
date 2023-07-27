@@ -1,7 +1,16 @@
 package it.epicode.be.godfather.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+
+@Entity
 public class Franchise implements MenuItem {
 	
+	@Id
+	@GeneratedValue
+	private Long id;
+
 	private String name;
 	private Double price;
 	

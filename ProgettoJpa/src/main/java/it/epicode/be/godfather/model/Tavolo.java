@@ -1,6 +1,16 @@
 package it.epicode.be.godfather.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+
+@Entity
 public class Tavolo {
+
+	@Id
+	@GeneratedValue
+	private Long id;
+
 	private final Integer numero;
 	private final Integer numeroMassimoCoperti;
 	private Boolean occupato = false;

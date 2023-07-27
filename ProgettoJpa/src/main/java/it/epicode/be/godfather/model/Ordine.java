@@ -3,7 +3,16 @@ package it.epicode.be.godfather.model;
 import java.util.HashMap;
 import java.util.Map;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+
+@Entity
 public class Ordine {
+	
+	@Id
+    @GeneratedValue
+    private Long id;
 
 	private Integer numeroOrdine;
 	private Tavolo tavolo;
