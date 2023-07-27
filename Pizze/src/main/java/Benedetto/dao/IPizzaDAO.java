@@ -1,8 +1,8 @@
-package Principale.dao;
+package Benedetto.dao;
 
 import java.util.List;
 
-import Principale.entities.Pizza;
+import Benedetto.entities.Pizza;
 
 public interface IPizzaDAO {
 

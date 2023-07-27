@@ -1,9 +1,9 @@
-package Principale.app;
+package Benedetto;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import Principale.dao.IPizzaDAO;
+import Benedetto.dao.IPizzaDAO;
 
 @Configuration
 public class AppConfig {

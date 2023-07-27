@@ -1,4 +1,4 @@
-package Principale.exception;
+package Benedetto.exception;
 
 public class ItemNotFoundException extends RuntimeException {
 

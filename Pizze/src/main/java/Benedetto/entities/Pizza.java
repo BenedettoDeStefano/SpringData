@@ -1,4 +1,4 @@
-package Principale.entities;
+package Benedetto.entities;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -12,7 +12,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Entity
-@Table(name = "pizzas")
+@Table(name = "pizze")
 @Getter
 @Setter
 @AllArgsConstructor
